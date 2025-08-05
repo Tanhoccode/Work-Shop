@@ -2,7 +2,7 @@
 theme = "hugo-theme-learn"
 
 # Base URL for GitHub Pages (will be set by GitHub Actions)
-baseURL = "/"
+baseURL = "https://tanhoccode.github.io/Work-Shop/"
 
 # For search functionality
 [outputs]
