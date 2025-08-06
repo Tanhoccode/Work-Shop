@@ -16,13 +16,13 @@ pre : " <b> 4.3 </b> "
   + In the **Service Category** section, click **AWS services**.
   + In the search box enter **S3**, then select **com.amazonaws.[region].s3**
 
-![S3](/images/4.s3/008-s3.png)
+![S3](/Work-Shop/images/4.s3/008-s3.png)
 
 3. In the **Services** section, select **com.amazonaws.[region].s3** with the Type of **Gateway**.
   + In the **VPC** section, select **Lab VPC**.
   + In the **Route tables** section, select both route tables.
   
-![S3](/images/4.s3/009-s3.png)
+![S3](/Work-Shop/images/4.s3/009-s3.png)
 
 4. Scroll down, click **Create endpoint**.
 

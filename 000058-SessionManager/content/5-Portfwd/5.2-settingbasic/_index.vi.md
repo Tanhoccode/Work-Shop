@@ -13,7 +13,7 @@ Trong bước này chúng ta sẽ tạo **Setting basic for Lamda Function** đ�
       - Ephemeral storage : 512MB
       - Time out : 2min
 
-![Lamda](/images/WS/Lamda/Settingbasic.png)
+![Lamda](/Work-Shop/images/WS/Lamda/Settingbasic.png)
   
 
 

@@ -10,10 +10,10 @@ Có rất nhiều loại model được tích hợp ở BedRock , ở lần này
 Đây là model tiết kiệm và hiệu quả nhất trong tầm giá.
 
  + Ấn vào **Avalible to request** và chọn **Request model Acess**.
-![Request model](/images/WS/BedRoc/RequestModel.png) 
+![Request model](/Work-Shop/images/WS/BedRoc/RequestModel.png) 
 
 + Sau khi chọn model mong muốn và ấn **submit**.
-![Confirm model](/images/WS/BedRoc/ConfirmModel.png) 
+![Confirm model](/Work-Shop/images/WS/BedRoc/ConfirmModel.png) 
 
 **Lưu ý** bạn hãy đọc kỹ từng chi tiết model phù hợp tránh phát sinh tình huống **lãng phí tài nguyên**. 
 

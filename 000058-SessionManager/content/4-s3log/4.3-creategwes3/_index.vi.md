@@ -16,13 +16,13 @@ pre : " <b> 4.3 </b> "
   + Tại mục **Service Category** click chọn **AWS services**.
   + Tại ô tìm kiếm điền **S3**, sau đó chọn **com.amazonaws.[region].s3**
 
-![S3](/images/4.s3/008-s3.png)
+![S3](/Work-Shop/images/4.s3/008-s3.png)
 
 3. Tại mục **Services** chọn **com.amazonaws.[region].s3** có Type là **Gateway**.
   + Tại mục **VPC** , chọn **Lab VPC**.
   + Tại mục **Route tables**, chọn cả 2 route table.
   
-![S3](/images/4.s3/009-s3.png)
+![S3](/Work-Shop/images/4.s3/009-s3.png)
 
 4. Kéo chuột xuống dưới cùng, click **Create endpoint**.
 

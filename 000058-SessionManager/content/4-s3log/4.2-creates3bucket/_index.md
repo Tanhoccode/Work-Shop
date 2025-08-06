@@ -14,13 +14,13 @@ In this step, we will create an S3 bucket to store session logs sent from EC2 in
 1. Access [S3 service management console](https://s3.console.aws.amazon.com/s3/home)
   + Click **Create bucket**.
 
-![S3](/images/4.s3/005-s3.png)
+![S3](/Work-Shop/images/4.s3/005-s3.png)
 
 2. At the **Create bucket** page.
   + In the **Bucket name** field, enter the bucket name **lab-yourname-bucket-0001**
   + In the **Region** section, select **Region** you are doing the current lab.
 
-![S3](/images/4.s3/006-s3.png)
+![S3](/Work-Shop/images/4.s3/006-s3.png)
 
  {{%notice tip%}}
 The name of the S3 bucket must not be the same as all other S3 buckets in the system. You can substitute your name and enter a random number when generating the S3 bucket name.
@@ -28,7 +28,7 @@ The name of the S3 bucket must not be the same as all other S3 buckets in the sy
 
 3. Scroll down and click **Create bucket**.
 
-![S3](/images/4.s3/007-s3.png)
+![S3](/Work-Shop/images/4.s3/007-s3.png)
 
  {{%notice tip%}}
 When we created the S3 bucket we did **Block all public access** so our EC2 instances won't be able to connect to S3 via the internet.

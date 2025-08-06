@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Session Management on AWS System Manager</title><link>/</link><description>Recent content in Session Management on AWS System Manager</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>AWS Services Examples</title><link>/example-with-image/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>/example-with-image/</guid><description>&lt;h1 id="aws-services-examples">AWS Services Examples&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Session Management on AWS System Manager</title><link>https://tanhoccode.github.io/Work-Shop/</link><description>Recent content in Session Management on AWS System Manager</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://tanhoccode.github.io/Work-Shop/index.xml" rel="self" type="application/rss+xml"/><item><title>AWS Services Examples</title><link>https://tanhoccode.github.io/Work-Shop/example-with-image/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://tanhoccode.github.io/Work-Shop/example-with-image/</guid><description>&lt;h1 id="aws-services-examples">AWS Services Examples&lt;/h1>
 &lt;h2 id="1-tìm-kiếm-amazon-bedrock">1. Tìm kiếm Amazon Bedrock&lt;/h2>
 &lt;p>Để tìm dịch vụ Amazon Bedrock trong AWS Console:&lt;/p>
 &lt;ol>
@@ -6,12 +6,12 @@
 &lt;li>Trong thanh tìm kiếm, gõ &amp;ldquo;bedrock&amp;rdquo;&lt;/li>
 &lt;li>Chọn dịch vụ Amazon Bedrock từ kết quả&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="/images/aws-services/bedrock-search.png" alt="AWS Bedrock Search">&lt;/p>
+&lt;p>&lt;img src="https://tanhoccode.github.io/Work-Shop/images/aws-services/bedrock-search.png" alt="AWS Bedrock Search">&lt;/p>
 &lt;h2 id="2-iam-dashboard">2. IAM Dashboard&lt;/h2>
 &lt;p>Giao diện quản lý IAM (Identity and Access Management):&lt;/p>
-&lt;p>&lt;img src="/images/aws-services/iam-dashboard.png" alt="IAM Dashboard">&lt;/p>
+&lt;p>&lt;img src="https://tanhoccode.github.io/Work-Shop/images/aws-services/iam-dashboard.png" alt="IAM Dashboard">&lt;/p>
 &lt;h2 id="3-ec2-console">3. EC2 Console&lt;/h2>
 &lt;p>Giao diện quản lý EC2 instances:&lt;/p>
-&lt;p>&lt;img src="/images/aws-services/ec2-console.png" alt="EC2 Console">&lt;/p>
+&lt;p>&lt;img src="https://tanhoccode.github.io/Work-Shop/images/aws-services/ec2-console.png" alt="EC2 Console">&lt;/p>
 &lt;h2 id="4-serverless-ai-architecture">4. Serverless AI Architecture&lt;/h2>
 &lt;p>Kiến trúc Serverless AI với Amazon Bedrock:&lt;/p></description></item></channel></rss>

@@ -14,7 +14,7 @@ Trong bước này chúng ta sẽ tạo **Lamda Function**, có chức năng x�
 - Gọi Bedrock API.
 - Xử lý response từ AI model.
 - Trả về kết quả cho API Gateway.
-  ![Lamda](/images/WS/Lamda/LamdaF.png)
+  ![Lamda](/Work-Shop/images/WS/Lamda/LamdaF.png)
 {{% notice info %}}
   Ưu điểm : Serverless, tự động scale, chỉ trả tiền khi sử dụng
 {{% /notice %}}

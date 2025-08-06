@@ -7,11 +7,11 @@ pre : " <b> 3.1. </b> "
 ---
 
 1. Truy cập vào thanh tìm kiếm và search **BedRock**.
-  ![Bedrock](/images/WS/BedRoc/BedRock.png)
+  ![Bedrock](/Work-Shop/images/WS/BedRoc/BedRock.png)
   + Click chọn **Model catalog**.
-  ![Bedrock](/images/WS/BedRoc/Model.png)
+  ![Bedrock](/Work-Shop/images/WS/BedRoc/Model.png)
   + Kéo xuống vào chọn  **Model Acess**.
-  ![Bedrock](/images/WS/BedRoc/ChoseModel.png)
+  ![Bedrock](/Work-Shop/images/WS/BedRoc/ChoseModel.png)
 
 
 

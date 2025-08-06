@@ -22,7 +22,7 @@ We will take the following steps to delete the resources we created in this exer
    + Click to select **SSM-Role**.
    + Click **Delete**, then enter the role name **SSM-Role** and click **Delete** to delete the role.
 
-![Clean](/images/6.clean/001-clean.png)
+![Clean](/Work-Shop/images/6.clean/001-clean.png)
 
 3. Click **Users**.
    + Click on user **Portfwd**.
@@ -47,11 +47,11 @@ We will take the following steps to delete the resources we created in this exer
 
 3. After deleting all objects in the bucket, click **Delete**
 
-![Clean](/images/6.clean/002-clean.png)
+![Clean](/Work-Shop/images/6.clean/002-clean.png)
 
 4. Enter the name of the S3 bucket, then click **Delete bucket** to proceed with deleting the S3 bucket.
 
-![Clean](/images/6.clean/003-clean.png)
+![Clean](/Work-Shop/images/6.clean/003-clean.png)
 
 #### Delete VPC Endpoints
 
@@ -61,14 +61,14 @@ We will take the following steps to delete the resources we created in this exer
    + Click **Actions**.
    + Click **Delete VPC endpoints**.
 
-![Clean](/images/6.clean/004-clean.png)
+![Clean](/Work-Shop/images/6.clean/004-clean.png)
 
 2. In the confirm box, enter **delete**.
    + Click **Delete** to proceed with deleting endpoints.
 
 3. Click the refresh icon, check that all endpoints have been deleted before proceeding to the next step.
 
-![Clean](/images/6.clean/005-clean.png)
+![Clean](/Work-Shop/images/6.clean/005-clean.png)
 
 #### Delete VPC
 
@@ -80,4 +80,4 @@ We will take the following steps to delete the resources we created in this exer
 
 2. In the confirm box, enter **delete** to confirm, click **Delete** to delete **Lab VPC** and related resources.
 
-![Clean](/images/6.clean/006-clean.png)
+![Clean](/Work-Shop/images/6.clean/006-clean.png)

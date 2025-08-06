@@ -9,7 +9,7 @@ pre : " <b> 5.3 </b> "
 Trong bước này chúng ta sẽ thực hiện code python sao cho Lamda Func hoạt động
 
  1. Ấn vào Code.
-![Lamda](/images/WS/Lamda/EditCode.png)
+![Lamda](/Work-Shop/images/WS/Lamda/EditCode.png)
 
 
 Dưới đây là đoạn code mẫu python của Lamda Function 

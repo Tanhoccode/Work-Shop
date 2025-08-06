@@ -10,7 +10,7 @@ pre : " <b> 4. </b> "
 Với IAM role có chức năng là **xác thực API Gateway requests** và **cấp quyền cho Lamda truy cập Bedrock** và đảm bảo end-to-end cho dự án.
 
 
-![IAM](/images/WS/IAM/IAMR.png)
+![IAM](/Work-Shop/images/WS/IAM/IAMR.png)
 
 
 ### Nội dung:

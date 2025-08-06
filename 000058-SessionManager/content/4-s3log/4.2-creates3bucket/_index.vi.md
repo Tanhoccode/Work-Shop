@@ -14,11 +14,11 @@ cho Lamda
 
  Truy cập giao diện add permission.
   + Ấn vào ô tìm kiếm gõ  **AmazonBedrockFullAcess**.
-  ![IAM](/images/WS/IAM/SelectRoleBedR.png)
+  ![IAM](/Work-Shop/images/WS/IAM/SelectRoleBedR.png)
   + Ấn vào ô tìm kiếm gõ  **CloudWatchLogsFullAccess**.
-  ![IAM](/images/WS/IAM/SelectRoleCW.png)
+  ![IAM](/Work-Shop/images/WS/IAM/SelectRoleCW.png)
  Sau đó, chúng ta đặt tên cho Role này là **ChatBoxLamdaRole**
-  ![IAM](/images/WS/IAM/NameRole.png)
+  ![IAM](/Work-Shop/images/WS/IAM/NameRole.png)
 
 
 

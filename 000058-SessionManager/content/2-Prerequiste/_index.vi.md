@@ -10,7 +10,7 @@ pre : " <b> 2. </b> "
 Dưới đây là sơ đồ mô tả kiến trúc của dự án.
 {{% /notice %}}
 
-![Serverless AI Architecture](/images/WS/Archtect.png)
+![Serverless AI Architecture](/Work-Shop/images/WS/Archtect.png)
 
 **Người dùng:** Mở trình duyệt và truy cập vào giao diện web của chatbot được host trên Amazon S3.
 

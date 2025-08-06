@@ -15,7 +15,7 @@ API Gateway có vai trò như là **Rate limiting, caching, monitoring**.
 - Trả về response cho client
 
   
-![Serverless AI Architecture](/images/WS/Archtect.png)
+![Serverless AI Architecture](/Work-Shop/images/WS/Archtect.png)
 
 
 

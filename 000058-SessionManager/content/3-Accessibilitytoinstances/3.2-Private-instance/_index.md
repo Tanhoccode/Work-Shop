@@ -10,7 +10,7 @@ With this type of instance, the traditional way is to use Bastion host technique
 Basically, the **private instance** still has to open the **TCP 443** port to **System Manager**, but we don't want to allow connection go out to the internet, but only in its  VPC, to enhance our security posture.\
 To do that, we have to include the System Manager endpoint in the VPC, that is, using the **VPC interface endpoint:**
 
-![ConnectPrivate](/images/arc-03.png) 
+![ConnectPrivate](/Work-Shop/images/arc-03.png) 
 
 **VPC interface endpoint** is attached to the subnet, so this method can be done not only with **private subnet** but also with **public subnet**, meaning that with **public subnet**, you can completely prohibit **TCP 443** go out to the internet.
 

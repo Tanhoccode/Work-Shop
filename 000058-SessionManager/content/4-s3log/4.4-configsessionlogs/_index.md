@@ -12,14 +12,14 @@ pre : " <b> 4.4 </b> "
   + Click the **Preferences** tab.
   + Click **Edit**.
   
-![S3](/images/4.s3/010-s3.png)
+![S3](/Work-Shop/images/4.s3/010-s3.png)
 
 2. Scroll down, at **S3 logging**, click **Enable**.
   + Uncheck **Allow only encrypted S3 buckets**.
   + Click **Choose a bucket name from the list**.
   + Select the S3 bucket you created.
   
-![S3](/images/4.s3/011-s3.png)
+![S3](/Work-Shop/images/4.s3/011-s3.png)
 
 3. Scroll down, click **Save** to save the configuration.
 
@@ -32,7 +32,7 @@ pre : " <b> 4.4 </b> "
   + Type the command **hostname**.
   + Click **Terminate** to exit the session, click **Terminate** again to confirm.
 
-![S3](/images/4.s3/012-s3.png)
+![S3](/Work-Shop/images/4.s3/012-s3.png)
 
 
 #### Check **Session logs** in **S3**
@@ -42,12 +42,12 @@ pre : " <b> 4.4 </b> "
 
 2. Click on the object name sessions log
 
-![S3](/images/4.s3/013-s3.png)
+![S3](/Work-Shop/images/4.s3/013-s3.png)
 
 3. On the objects detail page, click **Open**.
 
-![S3](/images/4.s3/014-s3.png)
+![S3](/Work-Shop/images/4.s3/014-s3.png)
 
 4. Object logs will be opened in a new tab in the browser. You can view the stored commands in session logs.
 
-![S3](/images/4.s3/015-s3.png)
+![S3](/Work-Shop/images/4.s3/015-s3.png)

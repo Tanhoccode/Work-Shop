@@ -15,25 +15,25 @@ chapter: false
 2. Trong thanh tìm kiếm, gõ "bedrock"
 3. Chọn dịch vụ Amazon Bedrock từ kết quả
 
-![AWS Bedrock Search](/images/aws-services/bedrock-search.png)
+![AWS Bedrock Search](/Work-Shop/images/aws-services/bedrock-search.png)
 
 ## 2. IAM Dashboard
 
 Giao diện quản lý IAM (Identity and Access Management):
 
-![IAM Dashboard](/images/aws-services/iam-dashboard.png)
+![IAM Dashboard](/Work-Shop/images/aws-services/iam-dashboard.png)
 
 ## 3. EC2 Console
 
 Giao diện quản lý EC2 instances:
 
-![EC2 Console](/images/aws-services/ec2-console.png)
+![EC2 Console](/Work-Shop/images/aws-services/ec2-console.png)
 
 ## 4. Serverless AI Architecture
 
 Kiến trúc Serverless AI với Amazon Bedrock:
 
-![Serverless AI Architecture](/images/WS/Archtect.png)
+![Serverless AI Architecture](/Work-Shop/images/WS/Archtect.png)
 
 ## Mô tả dịch vụ
 

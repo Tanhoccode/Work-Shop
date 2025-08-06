@@ -12,21 +12,21 @@ pre : " <b> 5. </b> "
 
 We will configure **Port Forwarding** for the RDP connection between our machine and **Private Windows Instance** located in the private subnet we created for this exercise.
 
-![port-fwd](/images/arc-04.png) 
+![port-fwd](/Work-Shop/images/arc-04.png) 
 
 #### Create IAM user with permission to connect SSM
 
 1. Go to [IAM service management console](https://console.aws.amazon.com/iamv2/home)
    + Click **Users** , then click **Add users**.
 
-![FWD](/images/5.fwd/001-fwd.png)
+![FWD](/Work-Shop/images/5.fwd/001-fwd.png)
 
 2. At the **Add user** page.
    + In the **User name** field, enter **Portfwd**.
    + Click on **Access key - Programmatic access**.
    + Click **Next: Permissions**.
   
-![FWD](/images/5.fwd/002-fwd.png)
+![FWD](/Work-Shop/images/5.fwd/002-fwd.png)
 
 3. Click **Attach existing policies directly**.
    + In the search box, enter **ssm**.
@@ -77,7 +77,7 @@ Prove that you have not successfully installed the Session Manager Plugin. You m
    + In the Computer section: enter **localhost:9999**.
 
 
-![FWD](/images/5.fwd/003-fwd.png)
+![FWD](/Work-Shop/images/5.fwd/003-fwd.png)
 
 
 3. Return to the administration interface of the System Manager - Session Manager service.
@@ -85,7 +85,7 @@ Prove that you have not successfully installed the Session Manager Plugin. You m
    + We will see session logs with Document name **AWS-StartPortForwardingSession**.
 
 
-![FWD](/images/5.fwd/004-fwd.png)
+![FWD](/Work-Shop/images/5.fwd/004-fwd.png)
 
 
 Congratulations on completing the lab on how to use Session Manager to connect and store session logs in S3 bucket. Remember to perform resource cleanup to avoid unintended costs.

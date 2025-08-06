@@ -22,7 +22,7 @@ Chúng ta sẽ tiến hành Deploy trang web này lên.
   + Click chọn **SSM-Role**.
   + Click **Delete**, sau đó điền tên role **SSM-Role** và click **Delete** để xóa role.
   
-![Clean](/images/6.clean/001-clean.png)
+![Clean](/Work-Shop/images/6.clean/001-clean.png)
 
 3. Click **Users**.
   + Click chọn user **Portfwd**.
@@ -47,11 +47,11 @@ Chúng ta sẽ tiến hành Deploy trang web này lên.
 
 3. Sau khi xóa hết object trong bucket, click **Delete**
 
-![Clean](/images/6.clean/002-clean.png)
+![Clean](/Work-Shop/images/6.clean/002-clean.png)
 
 4. Điền tên S3 bucket, sau đó click **Delete bucket** để tiến hành xóa S3 bucket.
 
-![Clean](/images/6.clean/003-clean.png)
+![Clean](/Work-Shop/images/6.clean/003-clean.png)
 
 #### Xóa các VPC Endpoint
 
@@ -61,14 +61,14 @@ Chúng ta sẽ tiến hành Deploy trang web này lên.
   + Click **Actions**.
   + Click **Delete VPC endpoints**.
 
-![Clean](/images/6.clean/004-clean.png)
+![Clean](/Work-Shop/images/6.clean/004-clean.png)
 
 2. Tại ô confirm , điền **delete**.
   + Click **Delete** để tiến hành xóa các endpoints.
 
 3. Click biểu tượng refresh, kiểm tra tất cả các endpoints đã bị xóa trước khi làm bước tiếp theo.
 
-![Clean](/images/6.clean/005-clean.png)
+![Clean](/Work-Shop/images/6.clean/005-clean.png)
 
 #### Xóa VPC
 
@@ -80,5 +80,5 @@ Chúng ta sẽ tiến hành Deploy trang web này lên.
 
 2. Tại ô confirm, điền **delete** để xác nhận, click **Delete** để thực hiện xóa **Lab VPC** và các tài nguyên liên quan.
 
-![Clean](/images/6.clean/006-clean.png)
+![Clean](/Work-Shop/images/6.clean/006-clean.png)
 
