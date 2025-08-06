@@ -123,7 +123,7 @@
 	"title": "Deploy Frontend Chat UI to an S3 Static Website",
 	"tags": [],
 	"description": "",
-	"content": "Chúng ta sẽ tiến hành Deploy trang web này lên.\nViết code giao diện cho chatbox Đầu tiên ta cần tạo 1 file index.html để ta có thể dễ dàng deploy S3 Vào IDE của mình và tạo file Index.html. Sau đó tham khảo code dưới đây : "
+	"content": "Chúng ta sẽ tiến hành Deploy trang web này lên.\nViết code giao diện cho chatbox Đầu tiên ta cần tạo 1 file index.html để ta có thể dễ dàng deploy S3 Vào IDE của mình và tạo file Index.html. Sau đó tham khảo code dưới đây : \u003c!DOCTYPE html\u003e\rAI Chatbot using Amazon Bedrock\r🤖AI Chatbot — Powered by Amazon Bedrock\rSend\r"
 },
 {
 	"uri": "http://localhost:1313/Work-Shop/vi/categories/",

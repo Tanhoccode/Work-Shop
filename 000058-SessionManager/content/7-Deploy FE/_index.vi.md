@@ -12,8 +12,10 @@ Chúng ta sẽ tiến hành Deploy trang web này lên.
 
 1. Đầu tiên ta cần tạo 1 file index.html để ta có thể dễ dàng deploy S3
    + Vào IDE của mình và tạo file **Index.html**.
-    - Sau đó tham khảo code dưới đây :
+    - Sau đó tham khảo code dưới đây : 
+    https://github.com/Tanhoccode/UI/blob/master/index.html
 
+#### DƯỚI ĐÂY LÀ SẢN PHẨM CHATBOX AI.
 {{< rawhtml >}}
 <!DOCTYPE html>
 <html lang="en">
@@ -21,218 +23,359 @@ Chúng ta sẽ tiến hành Deploy trang web này lên.
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>AI Chatbot using Amazon Bedrock</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
-    body {
+    * {
       margin: 0;
-      font-family: 'Inter', 'Segoe UI', sans-serif;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
       min-height: 100vh;
-      background: linear-gradient(135deg, #e0e7ff 0%, #f5f8fa 100%);
       display: flex;
       flex-direction: column;
-      height: 100vh;
+      color: #333;
     }
-    header {
-      background: #232f3e;
-      color: white;
-      padding: 1.5rem 1rem 1rem 1rem;
-      text-align: center;
-      font-size: 2rem;
-      font-weight: 600;
-      letter-spacing: 1px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 0.75rem;
-      box-shadow: 0 2px 8px rgba(35,47,62,0.08);
-    }
-    header .icon {
-      font-size: 2.2rem;
-      margin-right: 0.5rem;
-    }
-    #chatContainer {
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
       flex: 1;
       display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      padding: 2rem 0;
-      background: none;
+      flex-direction: column;
     }
-    #chatBox {
-      width: 100%;
-      max-width: 480px;
-      min-height: 480px;
-      background: #fff;
-      border-radius: 24px;
-      box-shadow: 0 8px 32px rgba(35,47,62,0.10);
-      padding: 2rem 1.5rem 1rem 1.5rem;
+
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+      color: white;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: 600;
+      margin-bottom: 10px;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
+
+    .header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+      font-weight: 400;
+    }
+
+    .chat-container {
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+      overflow: hidden;
+      flex: 1;
       display: flex;
       flex-direction: column;
-      gap: 1.25rem;
-      overflow-y: auto;
-      transition: box-shadow 0.2s;
+      max-height: 600px;
     }
-    .message-row {
+
+    .chat-header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-weight: 600;
+      font-size: 1.2rem;
+    }
+
+    .chat-messages {
+      flex: 1;
+      padding: 20px;
+      overflow-y: auto;
+      background: #f8f9fa;
+    }
+
+    .message {
+      margin-bottom: 20px;
       display: flex;
       align-items: flex-end;
-      gap: 0.75rem;
+      gap: 12px;
     }
-    .message-row.user {
+
+    .message.user {
       flex-direction: row-reverse;
     }
+
     .avatar {
-      width: 38px;
-      height: 38px;
+      width: 40px;
+      height: 40px;
       border-radius: 50%;
-      background: #e0e7ff;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 1.5rem;
+      font-size: 18px;
       font-weight: 600;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
       flex-shrink: 0;
     }
+
     .avatar.user {
-      background: linear-gradient(135deg, #0073bb 60%, #00c6fb 100%);
-      color: #fff;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
     }
+
     .avatar.bot {
-      background: #e1ecf4;
-      color: #232f3e;
+      background: #e9ecef;
+      color: #495057;
     }
-    .message {
-      max-width: 75%;
-      padding: 0.9rem 1.2rem;
+
+    .message-content {
+      max-width: 70%;
+      padding: 15px 20px;
       border-radius: 18px;
-      font-size: 1.05rem;
+      font-size: 0.95rem;
       line-height: 1.5;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-      word-break: break-word;
-      transition: background 0.2s;
+      word-wrap: break-word;
     }
-    .user .message {
-      background: linear-gradient(135deg, #0073bb 60%, #00c6fb 100%);
-      color: #fff;
+
+    .message.user .message-content {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
       border-bottom-right-radius: 6px;
     }
-    .bot .message {
-      background: #f3f6fa;
-      color: #232f3e;
+
+    .message.bot .message-content {
+      background: white;
+      color: #333;
+      border: 1px solid #e9ecef;
       border-bottom-left-radius: 6px;
     }
-    footer {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      background: none;
-      padding: 1.5rem 0 2rem 0;
+
+    .chat-input {
+      padding: 20px;
+      background: white;
+      border-top: 1px solid #e9ecef;
     }
-    #inputContainer {
-      width: 100%;
-      max-width: 480px;
+
+    .input-group {
       display: flex;
-      gap: 0.75rem;
-      background: #fff;
-      border-radius: 16px;
-      box-shadow: 0 2px 8px rgba(35,47,62,0.08);
-      padding: 0.5rem 0.75rem;
+      gap: 12px;
+      align-items: center;
     }
-    input[type="text"] {
+
+    .input-field {
       flex: 1;
-      padding: 0.85rem 1rem;
-      font-size: 1.08rem;
-      border: none;
-      border-radius: 10px;
+      padding: 15px 20px;
+      border: 2px solid #e9ecef;
+      border-radius: 25px;
+      font-size: 1rem;
       outline: none;
-      background: #f5f8fa;
-      color: #232f3e;
+      transition: all 0.3s ease;
       font-family: inherit;
-      transition: box-shadow 0.2s;
     }
-    input[type="text"]:focus {
-      box-shadow: 0 0 0 2px #0073bb33;
+
+    .input-field:focus {
+      border-color: #667eea;
+      box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
     }
-    button {
-      padding: 0.85rem 1.3rem;
-      background: linear-gradient(135deg, #ff9900 60%, #ffb84d 100%);
-      border: none;
-      border-radius: 10px;
+
+    .send-btn {
+      padding: 15px 25px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
       color: white;
+      border: none;
+      border-radius: 25px;
+      font-size: 1rem;
       font-weight: 600;
-      font-size: 1.08rem;
       cursor: pointer;
-      box-shadow: 0 2px 8px rgba(255,153,0,0.08);
-      transition: background 0.2s, box-shadow 0.2s;
+      transition: all 0.3s ease;
+      font-family: inherit;
     }
-    button:hover {
-      background: linear-gradient(135deg, #e48c00 60%, #ffb84d 100%);
-      box-shadow: 0 4px 16px rgba(255,153,0,0.12);
+
+    .send-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
     }
-    @media (max-width: 600px) {
-      #chatBox, #inputContainer {
-        max-width: 98vw;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
+
+    .send-btn:active {
+      transform: translateY(0);
+    }
+
+    .welcome-message {
+      text-align: center;
+      color: #6c757d;
+      font-style: italic;
+      margin: 20px 0;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 10px;
       }
-      #chatBox {
-        padding-top: 1rem;
-        padding-bottom: 0.5rem;
+      
+      .header h1 {
+        font-size: 2rem;
       }
-      footer {
-        padding: 0.75rem 0 1rem 0;
+      
+      .message-content {
+        max-width: 85%;
       }
+      
+      .chat-container {
+        max-height: 500px;
+      }
+    }
+
+    /* Custom scrollbar */
+    .chat-messages::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    .chat-messages::-webkit-scrollbar-track {
+      background: #f1f1f1;
+      border-radius: 3px;
+    }
+
+    .chat-messages::-webkit-scrollbar-thumb {
+      background: #c1c1c1;
+      border-radius: 3px;
+    }
+
+    .chat-messages::-webkit-scrollbar-thumb:hover {
+      background: #a8a8a8;
     }
   </style>
 </head>
 <body>
-  <header><span class="icon">🤖</span>AI Chatbot — Powered by Amazon Bedrock</header>
-  <div id="chatContainer">
-    <div id="chatBox"></div>
+  <div class="container">
+    <div class="header">
+      <h1>🤖 AI Chatbot</h1>
+      <p>Powered by Amazon Bedrock</p>
+    </div>
+    
+    <div class="chat-container">
+      <div class="chat-header">
+        💬 Chat với AI Assistant
+      </div>
+      
+      <div class="chat-messages" id="chatMessages">
+        <div class="welcome-message">
+          👋 Xin chào! Tôi có thể giúp gì cho bạn?
+        </div>
+      </div>
+      
+      <div class="chat-input">
+        <form class="input-group" onsubmit="event.preventDefault(); sendMessage();">
+          <input 
+            type="text" 
+            id="userInput" 
+            class="input-field" 
+            placeholder="Nhập tin nhắn của bạn..." 
+            autocomplete="off"
+          />
+          <button type="submit" class="send-btn">
+            Gửi
+          </button>
+        </form>
+      </div>
+    </div>
   </div>
-  <footer>
-    <form id="inputContainer" onsubmit="event.preventDefault(); sendMessage();">
-      <input type="text" id="userInput" placeholder="Type your message..." autocomplete="off" />
-      <button type="submit">Send</button>
-    </form>
-  </footer>
+
   <script>
     let history = [];
+    
     async function sendMessage() {
       const userInput = document.getElementById('userInput');
       const message = userInput.value.trim();
+      
       if (!message) return;
+      
+      // Add user message
       addMessage(message, 'user');
-      const response = await fetch('https://lvusy8c5xb.execute-api.us-east-1.amazonaws.com/dev/chat-box', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ message, history })
-      });
-      const data = await response.json();
-      const botReply = data.response;
-      addMessage(botReply, 'bot');
-      history.push({ user: message, assistant: botReply });
+      
+      // Clear input
       userInput.value = '';
+      
+      try {
+        // Show typing indicator
+        addTypingIndicator();
+        
+        // Call API
+        const response = await fetch('https://lvusy8c5xb.execute-api.us-east-1.amazonaws.com/dev/chat-box', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ message, history })
+        });
+        
+        const data = await response.json();
+        const botReply = data.response;
+        
+        // Remove typing indicator and add bot message
+        removeTypingIndicator();
+        addMessage(botReply, 'bot');
+        
+        // Update history
+        history.push({ user: message, assistant: botReply });
+        
+      } catch (error) {
+        removeTypingIndicator();
+        addMessage('Xin lỗi, có lỗi xảy ra. Vui lòng thử lại.', 'bot');
+        console.error('Error:', error);
+      }
+      
+      // Focus back to input
       userInput.focus();
     }
+    
     function addMessage(text, sender) {
-      const chatBox = document.getElementById('chatBox');
-      const row = document.createElement('div');
-      row.classList.add('message-row', sender);
-      // Avatar
+      const chatMessages = document.getElementById('chatMessages');
+      const messageDiv = document.createElement('div');
+      messageDiv.className = `message ${sender}`;
+      
       const avatar = document.createElement('div');
-      avatar.classList.add('avatar', sender);
-      avatar.textContent = sender === 'user' ? '🧑' : '🤖';
-      // Message
-      const msg = document.createElement('div');
-      msg.classList.add('message');
-      msg.textContent = text;
-      row.appendChild(avatar);
-      row.appendChild(msg);
-      chatBox.appendChild(row);
-      row.scrollIntoView({ behavior: 'smooth' });
+      avatar.className = `avatar ${sender}`;
+      avatar.textContent = sender === 'user' ? '👤' : '🤖';
+      
+      const content = document.createElement('div');
+      content.className = 'message-content';
+      content.textContent = text;
+      
+      messageDiv.appendChild(avatar);
+      messageDiv.appendChild(content);
+      chatMessages.appendChild(messageDiv);
+      
+      // Scroll to bottom
+      chatMessages.scrollTop = chatMessages.scrollHeight;
     }
-    // Optional: Enter to send
+    
+    function addTypingIndicator() {
+      const chatMessages = document.getElementById('chatMessages');
+      const typingDiv = document.createElement('div');
+      typingDiv.className = 'message bot typing-indicator';
+      typingDiv.id = 'typingIndicator';
+      
+      const avatar = document.createElement('div');
+      avatar.className = 'avatar bot';
+      avatar.textContent = '🤖';
+      
+      const content = document.createElement('div');
+      content.className = 'message-content';
+      content.textContent = 'Đang nhập...';
+      
+      typingDiv.appendChild(avatar);
+      typingDiv.appendChild(content);
+      chatMessages.appendChild(typingDiv);
+      
+      chatMessages.scrollTop = chatMessages.scrollHeight;
+    }
+    
+    function removeTypingIndicator() {
+      const typingIndicator = document.getElementById('typingIndicator');
+      if (typingIndicator) {
+        typingIndicator.remove();
+      }
+    }
+    
+    // Enter to send
     document.getElementById('userInput').addEventListener('keydown', function(e) {
       if (e.key === 'Enter' && !e.shiftKey) {
         e.preventDefault();
