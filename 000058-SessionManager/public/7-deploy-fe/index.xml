@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Clean up resources on AWS System Manager</title>
-    <link>http://localhost:1313/Work-Shop/7-deploy-fe/</link>
-    <description>Recent content in Clean up resources on AWS System Manager</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/Work-Shop/7-deploy-fe/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Deploy Frontend Chat UI to an S3 Static Website on AWS System Manager</title><link>https://tanhoccode.github.io/Work-Shop/7-deploy-fe/</link><description>Recent content in Deploy Frontend Chat UI to an S3 Static Website on AWS System Manager</description><generator>Hugo</generator><language>en</language><lastBuildDate/><atom:link href="https://tanhoccode.github.io/Work-Shop/7-deploy-fe/index.xml" rel="self" type="application/rss+xml"/></channel></rss>

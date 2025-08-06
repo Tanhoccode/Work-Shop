@@ -4,6 +4,7 @@ date : "2024-01-01"
 weight : 5 
 chapter : false
 pre : " <b> 5.1 </b> "
+url : "/5-portfwd/5.1-createlamdafunc/"
 ---
 
 In this step, we will create a **Lambda Function**.

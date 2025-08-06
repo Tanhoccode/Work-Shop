@@ -4,6 +4,7 @@ date : "2024-01-01"
 weight : 5 
 chapter : false
 pre : " <b> 5. </b> "
+url : "/5-portfwd/"
 ---
 
 In this step, we will create a **Lambda Function** that handles business logic and serves as a bridge between Frontend and Backend.

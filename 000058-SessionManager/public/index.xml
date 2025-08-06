@@ -1,19 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Session Management on AWS System Manager</title>
-    <link>http://localhost:1313/Work-Shop/</link>
-    <description>Recent content in Session Management on AWS System Manager</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/Work-Shop/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>AWS Services Examples</title>
-      <link>http://localhost:1313/Work-Shop/example-with-image/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Work-Shop/example-with-image/</guid>
-      <description>&lt;h1 id=&#34;aws-services-examples&#34;&gt;AWS Services Examples&lt;/h1&gt;&#xA;&lt;h2 id=&#34;1-tìm-kiếm-amazon-bedrock&#34;&gt;1. Tìm kiếm Amazon Bedrock&lt;/h2&gt;&#xA;&lt;p&gt;Để tìm dịch vụ Amazon Bedrock trong AWS Console:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Mở AWS Console&lt;/li&gt;&#xA;&lt;li&gt;Trong thanh tìm kiếm, gõ &amp;ldquo;bedrock&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;Chọn dịch vụ Amazon Bedrock từ kết quả&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Work-Shop/images/aws-services/bedrock-search.png&#34; alt=&#34;AWS Bedrock Search&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;2-iam-dashboard&#34;&gt;2. IAM Dashboard&lt;/h2&gt;&#xA;&lt;p&gt;Giao diện quản lý IAM (Identity and Access Management):&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Work-Shop/images/aws-services/iam-dashboard.png&#34; alt=&#34;IAM Dashboard&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;3-ec2-console&#34;&gt;3. EC2 Console&lt;/h2&gt;&#xA;&lt;p&gt;Giao diện quản lý EC2 instances:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Work-Shop/images/aws-services/ec2-console.png&#34; alt=&#34;EC2 Console&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;4-serverless-ai-architecture&#34;&gt;4. Serverless AI Architecture&lt;/h2&gt;&#xA;&lt;p&gt;Kiến trúc Serverless AI với Amazon Bedrock:&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Serverless AI Chatbot with Amazon Bedrock on AWS System Manager</title><link>https://tanhoccode.github.io/Work-Shop/</link><description>Recent content in Serverless AI Chatbot with Amazon Bedrock on AWS System Manager</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://tanhoccode.github.io/Work-Shop/index.xml" rel="self" type="application/rss+xml"/><item><title>AWS Services Examples</title><link>https://tanhoccode.github.io/Work-Shop/example-with-image/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://tanhoccode.github.io/Work-Shop/example-with-image/</guid><description>&lt;h1 id="aws-services-examples">AWS Services Examples&lt;/h1>
+&lt;h2 id="1-search-for-amazon-bedrock">1. Search for Amazon Bedrock&lt;/h2>
+&lt;p>To find the Amazon Bedrock service in AWS Console:&lt;/p>
+&lt;ol>
+&lt;li>Open AWS Console&lt;/li>
+&lt;li>In the search bar, type &amp;ldquo;bedrock&amp;rdquo;&lt;/li>
+&lt;li>Select Amazon Bedrock service from the results&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://tanhoccode.github.io/Work-Shop/images/aws-services/bedrock-search.png" alt="AWS Bedrock Search">&lt;/p>
+&lt;h2 id="2-iam-dashboard">2. IAM Dashboard&lt;/h2>
+&lt;p>IAM (Identity and Access Management) management interface:&lt;/p>
+&lt;p>&lt;img src="https://tanhoccode.github.io/Work-Shop/images/aws-services/iam-dashboard.png" alt="IAM Dashboard">&lt;/p>
+&lt;h2 id="3-ec2-console">3. EC2 Console&lt;/h2>
+&lt;p>EC2 instances management interface:&lt;/p>
+&lt;p>&lt;img src="https://tanhoccode.github.io/Work-Shop/images/aws-services/ec2-console.png" alt="EC2 Console">&lt;/p>
+&lt;h2 id="4-serverless-ai-architecture">4. Serverless AI Architecture&lt;/h2>
+&lt;p>Serverless AI architecture with Amazon Bedrock:&lt;/p>
+&lt;p>&lt;img src="https://tanhoccode.github.io/Work-Shop/images/WS/Archtect.png" alt="Serverless AI Architecture">&lt;/p></description></item></channel></rss>

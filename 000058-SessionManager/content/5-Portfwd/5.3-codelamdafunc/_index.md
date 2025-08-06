@@ -4,6 +4,7 @@ date : "2024-01-01"
 weight : 5 
 chapter : false
 pre : " <b> 5.3 </b> "
+url : "/5-portfwd/5.3-codelamdafunc/"
 ---
 
 In this step, we will implement the Python code so that the Lambda Function works.

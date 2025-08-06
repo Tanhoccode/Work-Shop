@@ -4,6 +4,7 @@ date : "2024-01-01"
 weight : 5 
 chapter : false
 pre : " <b> 5.2 </b> "
+url : "/5-portfwd/5.2-settingbasic/"
 ---
 
 In this step, we will set **basic settings for Lambda Function** to avoid network errors or connection timeouts.
