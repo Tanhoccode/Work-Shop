@@ -1,23 +1,18 @@
 ---
-title : "Manage session logs"
+title : "Create an IAM Role for Lambda."
 date : "2024-01-01"
-weight : 4
+weight : 4 
 chapter : false
 pre : " <b> 4. </b> "
 ---
 
+With IAM role functions to **authenticate API Gateway requests** and **grant Lambda permissions to access Bedrock** and ensure end-to-end for the project.
 
-With Session Manager, we can view the history of connections to instances through **Session history**. However, we have not seen the details of the commands used in a session.
-
-![S3](/Work-Shop/images/4.s3/001-s3.png)
-
-In this section, we will proceed to create an S3 bucket and configure the session logs feature to see the details of the commands used in the session.
-
-![port-fwd](/Work-Shop/images/arc-log.png) 
+![IAM](/Work-Shop/images/WS/IAM/IAMR.png)
 
 ### Content:
 
-   - [Update IAM Role](./4.1-updateiamrole/)
-   - [Create **S3 Bucket**](./4.2-creates3bucket/)
-   - [Create S3 Gateway endpoint](./4.3-creategwes3)
-   - [Configure **Session logs**](./4.4-configsessionlogs/)
+  - Create IAM role
+  - Set Role for Lambda
+  - Select Role for Bedrock
+  - Select Role for CloudWatch

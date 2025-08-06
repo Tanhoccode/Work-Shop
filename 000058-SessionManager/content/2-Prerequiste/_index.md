@@ -1,21 +1,30 @@
 ---
-title : "Preparation "
-date : "2024-01-01"
-weight : 2
+title : "Technical Architecture"
+date : "2024-01-01" 
+weight : 2 
 chapter : false
 pre : " <b> 2. </b> "
 ---
 
 {{% notice info %}}
-You need to create 1 Linux instance on the public subnet and 1 Window instance on the private subnet to perform this lab.
+Below is the diagram describing the project architecture.
 {{% /notice %}}
 
-To learn how to create EC2 instances and VPCs with public/private subnets, you can refer to the lab:
-  - [About Amazon EC2](https://000004.awsstudygroup.com/en/)
-  - [Works with Amazon VPC](https://000003.awsstudygroup.com/en/)
+![Serverless AI Architecture](/Work-Shop/images/WS/Archtect.png)
 
-In order to use System Manager to manage our window instances in particular and our instances in general on AWS, we need to give permission to our instances to be able to work with System Manager. In this preparation, we will also proceed to create an IAM Role to grant permissions to instances that can work with System Manager.
+**User:** Opens a browser and accesses the chatbot web interface hosted on Amazon S3.
 
-### Content
-  - [Prepare VPC and EC2](2.1-createec2/)
-  - [Create IAM Role](2.2-createiamrole/)
+**Frontend (S3):** The user enters a question and clicks send. JavaScript code in the browser creates an HTTPS POST request containing the question content to the API Gateway endpoint.
+
+**API Gateway:** Receives the request, authenticates, and forwards it to the AWS Lambda function.
+
+**AWS Lambda:** The Lambda function is triggered. Python code inside the function performs:
+a. Assumes a pre-configured IAM role with permissions to call Bedrock.
+b. Builds a complete "prompt" from the user's question.
+c. Calls the Amazon Bedrock API, passing the prompt and model name.
+
+**Amazon Bedrock:** Processes the prompt, generates a response, and sends it back to Lambda.
+
+**Response:** Lambda receives the response from Bedrock, formats it if necessary, and returns it to API Gateway. API Gateway then forwards this response to the user's browser.
+
+**Display:** JavaScript on the frontend receives the response and displays the AI's answer on the interface.

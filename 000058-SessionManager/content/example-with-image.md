@@ -7,57 +7,57 @@ chapter: false
 
 # AWS Services Examples
 
-## 1. Tìm kiếm Amazon Bedrock
+## 1. Search for Amazon Bedrock
 
-Để tìm dịch vụ Amazon Bedrock trong AWS Console:
+To find the Amazon Bedrock service in AWS Console:
 
-1. Mở AWS Console
-2. Trong thanh tìm kiếm, gõ "bedrock"
-3. Chọn dịch vụ Amazon Bedrock từ kết quả
+1. Open AWS Console
+2. In the search bar, type "bedrock"
+3. Select Amazon Bedrock service from the results
 
 ![AWS Bedrock Search](/Work-Shop/images/aws-services/bedrock-search.png)
 
 ## 2. IAM Dashboard
 
-Giao diện quản lý IAM (Identity and Access Management):
+IAM (Identity and Access Management) management interface:
 
 ![IAM Dashboard](/Work-Shop/images/aws-services/iam-dashboard.png)
 
 ## 3. EC2 Console
 
-Giao diện quản lý EC2 instances:
+EC2 instances management interface:
 
 ![EC2 Console](/Work-Shop/images/aws-services/ec2-console.png)
 
 ## 4. Serverless AI Architecture
 
-Kiến trúc Serverless AI với Amazon Bedrock:
+Serverless AI architecture with Amazon Bedrock:
 
 ![Serverless AI Architecture](/Work-Shop/images/WS/Archtect.png)
 
-## Mô tả dịch vụ
+## Service Description
 
 ### Amazon Bedrock
-Amazon Bedrock là dịch vụ giúp xây dựng và mở rộng các ứng dụng AI tạo sinh với các mô hình nền tảng.
+Amazon Bedrock is a service that helps build and scale generative AI applications with foundation models.
 
 ### IAM (Identity and Access Management)
-Quản lý quyền truy cập và bảo mật cho các tài nguyên AWS.
+Manage access permissions and security for AWS resources.
 
 ### EC2 (Elastic Compute Cloud)
-Dịch vụ máy chủ ảo có thể mở rộng trong cloud.
+Scalable virtual server service in the cloud.
 
 ### Serverless AI Architecture
-Kiến trúc serverless cho chatbot AI sử dụng Amazon Bedrock với các thành phần:
-- **Frontend**: S3 Static Site hoặc Amplify Hosting
-- **API Gateway**: Điểm truy cập API
-- **Lambda Function**: Xử lý logic
-- **Bedrock (Titan)**: Mô hình AI
-- **IAM Role**: Quản lý quyền truy cập
+Serverless architecture for AI chatbot using Amazon Bedrock with components:
+- **Frontend**: S3 Static Site or Amplify Hosting
+- **API Gateway**: API access point
+- **Lambda Function**: Logic processing
+- **Bedrock (Titan)**: AI model
+- **IAM Role**: Access management
 
-## Sử dụng trong Session Manager
+## Usage in Session Manager
 
-Khi làm việc với Session Manager, bạn có thể cần truy cập các dịch vụ AWS khác để quản lý tài nguyên.
+When working with Session Manager, you may need to access other AWS services to manage resources.
 
 {{% notice tip %}}
-Đảm bảo EC2 instance có quyền truy cập vào các dịch vụ AWS cần thiết.
+Ensure EC2 instance has access permissions to necessary AWS services.
 {{% /notice %}} 
