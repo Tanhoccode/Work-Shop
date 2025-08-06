@@ -15,10 +15,10 @@
 },
 {
 	"uri": "http://localhost:1313/Work-Shop/vi/",
-	"title": "Session Management",
+	"title": "Serverless AI Chatbot with Amazon Bedrock ",
 	"tags": [],
 	"description": "",
-	"content": "Làm việc với Amazon System Manager - Session Manager Tổng quan Trong bài lab này, bạn sẽ tìm hiểu các khái niệm cơ bản và thực hành về Amazon System Manager - Session Management. Thực hành tạo kết nối đến máy chủ public và máy chủ private trong VPC.\nNội dung Giới thiệu Các bước chuẩn bị Tạo kết nối đến máy chủ EC2 Quản lý session logs Port Forwarding Dọn dẹp tài nguyên "
+	"content": "DƯỚI ĐÂY LÀ SẢN PHẨM CHATBOX AI. \u003c!DOCTYPE html\u003e\rAI Chatbot using Amazon Bedrock\r🤖 AI Chatbot\rPowered by Amazon Bedrock\n💬 Chat với AI Assistant\r👋 Xin chào! Tôi có thể giúp gì cho bạn?\rGửi\r"
 },
 {
 	"uri": "http://localhost:1313/Work-Shop/vi/3-accessibilitytoinstances/3.1-public-instance/",
@@ -123,7 +123,7 @@
 	"title": "Deploy Frontend Chat UI to an S3 Static Website",
 	"tags": [],
 	"description": "",
-	"content": "Chúng ta sẽ tiến hành Deploy trang web này lên.\nViết code giao diện cho chatbox Đầu tiên ta cần tạo 1 file index.html để ta có thể dễ dàng deploy S3 Vào IDE của mình và tạo file Index.html. Sau đó tham khảo code dưới đây : \u003c!DOCTYPE html\u003e\rAI Chatbot using Amazon Bedrock\r🤖AI Chatbot — Powered by Amazon Bedrock\rSend\r"
+	"content": "Chúng ta sẽ tiến hành Deploy trang web này lên.\nViết code giao diện cho chatbox Đầu tiên ta cần tạo 1 file index.html để ta có thể dễ dàng deploy S3\nVào IDE của mình và tạo file Index.html. Sau đó tham khảo code dưới đây : https://github.com/Tanhoccode/UI/blob/master/index.html Sau đó, ta vào S3 tạo Bucket Create Bucket Set quyền cho Bucket 5.Chúng ta cần upload file index.html ở trên Upload thành công Cuộn xuống tìm Static web hosting và ấn Edit Enable cho Static web hosting và file index.html Trờ lại ấn vào Permission 10.SetPermission cho Policy cho ChatBox Và cuối cùng trở lại file index.html và ta sẽ thấy đường link deploy thành công Và đây là sản phẩm của chúng ta Product\n"
 },
 {
 	"uri": "http://localhost:1313/Work-Shop/vi/categories/",
