@@ -41,4 +41,3 @@ Chúng ta sẽ tiến hành Deploy trang web này lên.
  #### Và đây là sản phẩm của chúng ta 
 ![S3](/Work-Shop/images/WS/S3/Product.png) 
 
-Product
